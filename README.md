@@ -13,8 +13,8 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
 ## Installation
 1. Clone the repository:
    ```
-    git clone https://github.com/your-username/RMOEA-UPF.git
-    cd RMOEA-UPF
+   git clone https://github.com/your-username/RMOEA-UPF.git
+   cd RMOEA-UPF
    ```
 3. (Recommended) Create and activate a virtual environment:
    ```
@@ -23,7 +23,7 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
    ```
 5. Install the required dependencies:
    ```
-    pip install numpy pandas openpyxl
+   pip install numpy pandas openpyxl
    ```
 
 
