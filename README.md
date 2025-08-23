@@ -25,6 +25,51 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
    ```
    pip install numpy pandas openpyxl
    ```
+## Quick Start
+The following example demonstrates how to use the RMOEA_UPF algorithm to solve the TP9 benchmark problem.
+```
+# examples/run_single_problem.py
+
+import numpy as np
+import os
+from rmoeaupf.algorithm import RMOEA_UPF
+from rmoeaupf.problems import TP9
+
+# 1. Define the problem
+problem = TP9(n_var=10)
+
+# 2. Set algorithm parameters
+params = {
+    "problem": problem,
+    "population_size": 100,
+    "archive_capacity": 100,
+    "elite_offspring_size": 30,
+    "max_real_evals": 2000, # Use a smaller value for a quick test
+    "alpha": 0.9
+}
+
+# 3. Instantiate and run the algorithm
+algorithm = RMOEA_UPF(**params)
+result = algorithm.solve(k_final_solutions=100)
+
+# 4. Access and save the results
+if result["final_solutions"].size > 0:
+    os.makedirs("./results_output", exist_ok=True)
+    filepath = f"./results_output/final_solutions_{problem.__class__.__name__}.csv"
+    np.savetxt(filepath, result["final_solutions"], delimiter=',')
+    print(f"\nFinal solutions saved to {filepath}")
+```
+## How to Run
+To avoid `ModuleNotFoundError`, run the example script from the **root directory** of the project (the main `RMOEA-UPF` folder) using the `-m` flag (to treat it as a package):
+```
+python -m examples.run_single_problem
+```
+## Citation
+If you use this code or the UPF framework in your research, please cite our paper:
+```
+
+```
+
 
 
 
