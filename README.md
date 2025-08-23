@@ -11,7 +11,14 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
 - **General-Purpose:** Designed to be a general framework applicable to a wide range of robust multi-objective problems.
 
 ## Installation
-1.Clone the repository:
+1. Clone the repository:
+
 `git clone https://github.com/your-username/RMOEA-UPF.git
 cd RMOEA-UPF`
+1. (Recommended) Create and activate a virtual environment:
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
