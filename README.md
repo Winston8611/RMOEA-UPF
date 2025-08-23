@@ -12,13 +12,17 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
 
 ## Installation
 1. Clone the repository:
-
-`git clone https://github.com/your-username/RMOEA-UPF.git
-cd RMOEA-UPF`
-1. (Recommended) Create and activate a virtual environment:
-
+   ```
+    git clone https://github.com/your-username/RMOEA-UPF.git
+    cd RMOEA-UPF
+   ```
+3. (Recommended) Create and activate a virtual environment:
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 ```
+5. Install the required dependencies:
+
+
+
 
