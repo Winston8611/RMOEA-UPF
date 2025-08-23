@@ -18,11 +18,13 @@ Our approach introduces the Uncertainty-related Pareto Front (UPF), a novel fram
    ```
 3. (Recommended) Create and activate a virtual environment:
    ```
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 5. Install the required dependencies:
-
+   ```
+    pip install numpy pandas openpyxl
+   ```
 
 
 
