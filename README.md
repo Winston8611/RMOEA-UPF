@@ -1,4 +1,4 @@
-# RMOEA-UPF: A Population-Based Search Method Using Uncertainty-related Pareto Front for Robust Multi-objective Optimization
+# RMOEA-UPF: Population-Based Search Method Using Uncertainty-related Pareto Front for Robust Multi-objective Optimization
 This repository contains the official Python implementation for the paper: "Population-Based Search Method Using Uncertainty-related Pareto Front for Robust Multi-objective Optimization". RMOEA-UPF is a novel optimization algorithm designed to solve robust multi-objective optimization problems where decision variables are subject to noise.
 ## Core Concept: The Uncertainty-related Pareto Front (UPF)
 Conventional robust multi-objective optimization methods often decouple convergence and robustness, typically treating robustness as a secondary concern. This approach is frequently ineffective, leading to suboptimal solutions in noisy, real-world environments.
