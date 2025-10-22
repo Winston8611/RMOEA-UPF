@@ -67,7 +67,12 @@ python -m examples.run_single_problem
 ## Citation
 If you use this code or the UPF framework in your research, please cite our paper:
 ```
-
+@article{Xu2025PopulationBasedSM,
+  title={Population-Based Search Method Using Uncertainty-related Pareto Front for Robust Multi-objective Optimization},
+  author={Lihong Xu and Wenxiang Jiang},
+  journal={arXiv preprint arXiv:2510.16386},
+  year={2025}
+}
 ```
 
 
